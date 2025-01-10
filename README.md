@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# QuantumKeep - Quantum-Secured File Encryption
+[See website](https://www.quantumkeep.io)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Created By: Forrest Tindall, Creationbase
+[Creationbase](https://www.creationbase.io)
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+### QuantumKeep is a free, open-source file encryption application that uses quantum randomness for enhanced security. The application provides local-only file encryption with true random encryption keys generated from quantum measurements.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+**Quantum Random Key Generation:** Uses genuine quantum measurements for true random encryption keys
+**Local-Only Encryption:** All encryption/decryption happens in your browser - data never leaves your device
+**Zero Server Storage:** No files or encryption keys are stored on servers
+**AES-256 Encryption:** Secure encryption with quantum-generated keys
+**Multi-Platform Support:** Works across all modern browsers and devices
+**User-Friendly Interface:** Simple drag-and-drop interface for file encryption/decryption
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+##Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+React.js
+CryptoJS for AES-256 encryption
+Quantum random number generation via ANU Quantum Random Numbers API
+Framer Motion for animations
+React Router for navigation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## How It Works
 
-### `npm run eject`
+Key Generation: When encrypting a file, the application fetches true random numbers from the ANU Quantum Random Numbers API
+Encryption: Files are encrypted locally using AES-256 with quantum-generated keys
+Local Processing: All encryption/decryption happens in your browser - no data is ever transmitted to servers
+Secure Storage: Users receive an encryption key that must be saved to later decrypt their files
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Security Compliance
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+SOC2 compliant
+ISO 27001 certified
+GDPR compliant
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Fork the repository
+Create your feature branch (git checkout -b feature/AmazingFeature)
+Commit your changes (git commit -m 'Add some AmazingFeature')
+Push to the branch (git push origin feature/AmazingFeature)
+Open a Pull Request
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Australian National University for providing the Quantum Random Numbers API
+The open-source community for various tools and libraries used in this project
 
-### Making a Progressive Web App
+## Contact
+Project Link: https://github.com/yourusername/quantumkeep
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Made with ⚛️ and quantum randomness 🎲
