@@ -1,0 +1,19 @@
+/* Dark mode scrollbar styling */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+   background: rgb(10, 10, 10);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(35, 35, 35);
+    border-radius: 10px; /* Rounded corners for the thumb */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(10, 10, 10);
+  }
+  
+
