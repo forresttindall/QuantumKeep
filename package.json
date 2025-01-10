@@ -1,0 +1,54 @@
+{
+  "name": "quantumkeep",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@iconscout/unicons": "^4.2.0",
+    "axios": "^1.7.9",
+    "cra-template": "1.2.0",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.7",
+    "firebase": "^11.1.0",
+    "framer-motion": "^11.15.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-dropzone": "^14.3.5",
+    "react-firebase-hooks": "^5.1.1",
+    "react-icons": "^5.0.1",
+    "react-router-dom": "^6.22.1",
+    "react-scripts": "^5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:3002",
+  "devDependencies": {
+    "@svgr/webpack": "^8.1.0"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "server.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

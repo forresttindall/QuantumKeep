@@ -1,0 +1,83 @@
+[debug] [2025-01-06T00:38:26.889Z] ----------------------------------------------------------------------
+[debug] [2025-01-06T00:38:26.890Z] Command:       /Users/forresttindall/.nvm/versions/node/v18.20.5/bin/node /Users/forresttindall/.nvm/versions/node/v18.20.5/bin/firebase init functions
+[debug] [2025-01-06T00:38:26.891Z] CLI Version:   13.29.1
+[debug] [2025-01-06T00:38:26.891Z] Platform:      darwin
+[debug] [2025-01-06T00:38:26.891Z] Node Version:  v18.20.5
+[debug] [2025-01-06T00:38:26.892Z] Time:          Sun Jan 05 2025 17:38:26 GMT-0700 (Mountain Standard Time)
+[debug] [2025-01-06T00:38:26.892Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-01-06T00:38:26.895Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-01-06T00:38:26.896Z] > authorizing via signed-in user (forrest.tindall@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/forresttindall/Library/Mobile Documents/com~apple~CloudDocs/Cloud Drive/Code/quantumkeep
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-01-06T00:38:31.848Z] Checked if tokens are valid: true, expires at: 1736127466650
+[debug] [2025-01-06T00:38:31.848Z] Checked if tokens are valid: true, expires at: 1736127466650
+[debug] [2025-01-06T00:38:31.850Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-01-06T00:38:32.424Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-01-06T00:38:32.424Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project quantumkeep-bfb74 (QuantumKeep) 
+[info] 
+=== Functions Setup
+[debug] [2025-01-06T00:38:37.191Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-01-06T00:38:37.192Z] > authorizing via signed-in user (forrest.tindall@gmail.com)
+[debug] [2025-01-06T00:38:37.192Z] [iam] checking project quantumkeep-bfb74 for permissions ["firebase.projects.get"]
+[debug] [2025-01-06T00:38:37.192Z] Checked if tokens are valid: true, expires at: 1736127466650
+[debug] [2025-01-06T00:38:37.192Z] Checked if tokens are valid: true, expires at: 1736127466650
+[debug] [2025-01-06T00:38:37.193Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/quantumkeep-bfb74:testIamPermissions [none]
+[debug] [2025-01-06T00:38:37.193Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/quantumkeep-bfb74:testIamPermissions x-goog-quota-user=projects/quantumkeep-bfb74
+[debug] [2025-01-06T00:38:37.193Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/quantumkeep-bfb74:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-01-06T00:38:37.470Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/quantumkeep-bfb74:testIamPermissions 200
+[debug] [2025-01-06T00:38:37.470Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/quantumkeep-bfb74:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-01-06T00:38:37.471Z] Checked if tokens are valid: true, expires at: 1736127466650
+[debug] [2025-01-06T00:38:37.471Z] Checked if tokens are valid: true, expires at: 1736127466650
+[debug] [2025-01-06T00:38:37.471Z] Checked if tokens are valid: true, expires at: 1736127466650
+[debug] [2025-01-06T00:38:37.471Z] Checked if tokens are valid: true, expires at: 1736127466650
+[debug] [2025-01-06T00:38:37.472Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/quantumkeep-bfb74/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-01-06T00:38:37.472Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/quantumkeep-bfb74/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/quantumkeep-bfb74
+[debug] [2025-01-06T00:38:37.474Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/quantumkeep-bfb74/services/runtimeconfig.googleapis.com [none]
+[debug] [2025-01-06T00:38:37.474Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/quantumkeep-bfb74/services/runtimeconfig.googleapis.com x-goog-quota-user=projects/quantumkeep-bfb74
+[debug] [2025-01-06T00:38:37.950Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/quantumkeep-bfb74/services/cloudfunctions.googleapis.com 200
+[debug] [2025-01-06T00:38:37.950Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/quantumkeep-bfb74/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2025-01-06T00:38:37.951Z] Checked if tokens are valid: true, expires at: 1736127466650
+[debug] [2025-01-06T00:38:37.951Z] Checked if tokens are valid: true, expires at: 1736127466650
+[debug] [2025-01-06T00:38:37.951Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/quantumkeep-bfb74/services/cloudfunctions.googleapis.com:enable [none]
+[debug] [2025-01-06T00:38:37.951Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/quantumkeep-bfb74/services/cloudfunctions.googleapis.com:enable x-goog-quota-user=projects/quantumkeep-bfb74
+[debug] [2025-01-06T00:38:38.082Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/quantumkeep-bfb74/services/runtimeconfig.googleapis.com 200
+[debug] [2025-01-06T00:38:38.082Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/quantumkeep-bfb74/services/runtimeconfig.googleapis.com [omitted]
+[debug] [2025-01-06T00:38:38.657Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/quantumkeep-bfb74/services/cloudfunctions.googleapis.com:enable 200
+[debug] [2025-01-06T00:38:38.657Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/quantumkeep-bfb74/services/cloudfunctions.googleapis.com:enable [omitted]
+[debug] [2025-01-06T00:38:48.660Z] Checked if tokens are valid: true, expires at: 1736127466650
+[debug] [2025-01-06T00:38:48.660Z] Checked if tokens are valid: true, expires at: 1736127466650
+[debug] [2025-01-06T00:38:48.661Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/quantumkeep-bfb74/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-01-06T00:38:48.661Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/quantumkeep-bfb74/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/quantumkeep-bfb74
+[debug] [2025-01-06T00:38:49.194Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/quantumkeep-bfb74/services/cloudfunctions.googleapis.com 200
+[debug] [2025-01-06T00:38:49.194Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/quantumkeep-bfb74/services/cloudfunctions.googleapis.com [omitted]
+[info] Let's create a new codebase for your functions.
+[info] A directory corresponding to the codebase will be created in your project
+[info] with sample code pre-configured.
+
+[info] See https://firebase.google.com/docs/functions/organize-functions for
+[info] more information on organizing your functions using codebases.
+
+[info] Functions can be deployed with firebase deploy.
+
+[info] ✔  Wrote functions/package.json 
+[info] ✔  Wrote functions/.eslintrc.js 
+[info] ✔  Wrote functions/index.js 
+[info] ✔  Wrote functions/.gitignore 
