@@ -1,12 +1,8 @@
 # QuantumKeep - Quantum-Secured File Encryption
 [See website](https://www.quantumkeep.io)
 
-### Created By: Forrest Tindall, Creationbase
-[Creationbase](https://www.creationbase.io)
 
-
-
-### QuantumKeep is a free, open-source file encryption application that uses quantum randomness for enhanced security. The application provides local-only file encryption with true random encryption keys generated from quantum measurements.
+## QuantumKeep is a free, open-source file encryption application that uses quantum randomness for enhanced security. The application provides local-only file encryption with true random encryption keys generated from quantum zero-point energy.
 
 
 ## Features
@@ -64,6 +60,7 @@ The open-source community for various tools and libraries used in this project
 
 ## Contact
 Project Link: https://github.com/yourusername/quantumkeep
-
+#### Created By: Forrest Tindall, Creationbase
+[Creationbase](https://www.creationbase.io)
 
 Made with ⚛️ and quantum randomness 🎲
