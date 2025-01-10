@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './HeroSection.css';
 import { motion } from 'framer-motion';
-import { FaShieldAlt, FaBolt, FaGlobe, FaRandom } from 'react-icons/fa';
+import { FaShieldAlt, FaRandom, FaGlobe, FaBolt } from 'react-icons/fa';
 
 const HeroSection = () => {
   return (
@@ -66,7 +66,7 @@ const HeroSection = () => {
         <div className="feature-card">
           <FaShieldAlt className="feature-icon" />
           <h3>Local Encryption</h3>
-          <p>Secure files on your devices with secure and private encryption. Your data never leaves your device.</p>
+          <p>Secure files on your devices with strong encryption. Your data never leaves your device.</p>
         </div>
         <div className="feature-card">
           <FaRandom className="feature-icon" />

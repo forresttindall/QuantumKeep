@@ -15,7 +15,6 @@ import './Header.css';
 import './HeroSection.css';
 import './HowItWorks.css';
 import './Pricing.css';
-import '@iconscout/unicons/css/line.css';
 import './Contact.css';
 import './About.css';
 
