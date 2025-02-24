@@ -16,7 +16,7 @@
 **User-Friendly Interface:** Simple drag-and-drop interface for file encryption/decryption
 
 
-##Tech Stack
+## Tech Stack
 
 React.js
 CryptoJS for AES-256 encryption
