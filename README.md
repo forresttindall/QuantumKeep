@@ -18,11 +18,11 @@
 
 ## Tech Stack
 
-React.js
-CryptoJS for AES-256 encryption
-Quantum random number generation via ANU Quantum Random Numbers API
-Framer Motion for animations
-React Router for navigation
+React.js - 
+CryptoJS for AES-256 encryption - 
+Quantum random number generation via ANU Quantum Random Numbers API - 
+Framer Motion for animations - 
+React Router for navigation - 
 
 
 ## How It Works
@@ -31,13 +31,6 @@ Key Generation: When encrypting a file, the application fetches true random numb
 Encryption: Files are encrypted locally using AES-256 with quantum-generated keys
 Local Processing: All encryption/decryption happens in your browser - no data is ever transmitted to servers
 Secure Storage: Users receive an encryption key that must be saved to later decrypt their files
-
-
-## Security Compliance
-
-SOC2 compliant
-ISO 27001 certified
-GDPR compliant
 
 
 ## Contributing
@@ -60,7 +53,7 @@ Australian National University for providing the Quantum Random Numbers API
 The open-source community for various tools and libraries used in this project
 
 ## Contact
-Project Link: https://github.com/yourusername/quantumkeep
+Project Link: https://github.com/forresttindall/quantumkeep
 #### Created By: Forrest Tindall, Creationbase
 [Creationbase](https://www.creationbase.io)
 
