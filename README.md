@@ -1,5 +1,6 @@
 # QuantumKeep - Quantum-Secured File Encryption
 [See website](https://www.quantumkeep.io)
+<img width="2222" alt="socialshare" src="https://github.com/user-attachments/assets/c3417b33-3503-41d8-b846-79564b6f0817" />
 
 
 ## QuantumKeep is a free, open-source file encryption application that uses quantum randomness for enhanced security. The application provides local-only file encryption with true random encryption keys generated from quantum zero-point energy.
