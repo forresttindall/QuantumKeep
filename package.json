@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@iconscout/unicons": "^4.2.0",
     "axios": "^1.7.9",
+    "canvas-confetti": "^1.9.3",
     "cra-template": "1.2.0",
     "crypto-js": "^4.2.0",
     "dotenv": "^16.4.7",
