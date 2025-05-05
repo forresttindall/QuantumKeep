@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import cblogo from './images/cblogo.png';
+import cblogo from './images/dot-triangle.png';
 
 const About = () => {
   return (

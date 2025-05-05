@@ -73,7 +73,7 @@ h1 {
 
 .form-group input,
 .form-group textarea {
-  padding: 1rem;
+  padding: 10px;
   border: 1px solid rgba(255, 13, 13, 0.2);
   border-radius: 4px;
   font-size: 0.9rem;
@@ -125,16 +125,16 @@ button.primary-button:disabled {
 .error-message {
   text-align: center;
   margin-top: 1rem;
-  padding: 1rem;
+  padding: 0.7rem;
   border-radius: 4px;
   font-family: geist mono;
   font-size: 0.9rem;
 }
 
 .success-message {
-  background: rgba(255, 75, 75, 0.1);
-  border: 1px solid rgba(255, 75, 75, 0.2);
-  color: #FF4B4B;
+  background: rgba(0, 255, 0, 0.1);
+  border: 1px solid rgba(0, 255, 0, 0.2);
+  color: #90EE90;
 }
 
 .error-message {

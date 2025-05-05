@@ -53,13 +53,15 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     setStatus('sending');
-
-    emailjs.sendForm('service_9z4q1rg', 'template_l2zhyqf', form.current, 'ZpTIIyS2dofg5_9Ux')
+  
+    emailjs.sendForm('service_txe96pq', 'template_l2zhyqf', form.current, 'ZpTIIyS2dofg5_9Ux')
       .then((result) => {
+        console.log("EmailJS result:", result); // Log success response
         setStatus('success');
         form.current.reset();
         blastConfetti();
       }, (error) => {
+        console.error("EmailJS Error:", error);  // Log error details
         setStatus('error');
       });
   };
@@ -87,8 +89,8 @@ const Contact = () => {
           </div>
           
           <div className="form-group">
-            <label htmlFor="user_email">Email</label>
-            <input type="email" id="user_email" name="user_email" required />
+            <label htmlFor="from_email">Email</label>
+            <input type="email" id="from_email" name="from_email" required />
           </div>
           
           <div className="form-group">
@@ -130,3 +132,4 @@ const Contact = () => {
 };
 
 export default Contact;
+

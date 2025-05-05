@@ -13,17 +13,17 @@
 
 .about-header {
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .company-logo {
-  max-width: 150px;
+  max-width: 100px;
   height: auto;
   margin-bottom: 1rem;
 }
 
 .about-header h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: white;
   margin: 0;
 }
@@ -31,7 +31,7 @@
 .about-content {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 2rem;
 }
 
 .mission-statement {
@@ -47,7 +47,7 @@
 
 .mission-statement p {
   color: #a0a0a0;
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.6;
 }
 
@@ -60,7 +60,7 @@
 .focus-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .focus-card {
@@ -122,7 +122,7 @@ body {
 }
 
 .visit-button {
-  margin-top: 1.5rem;
+  margin-top: 0rem;
   display: inline-block;
   text-decoration: none;
 }
