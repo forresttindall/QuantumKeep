@@ -13,26 +13,20 @@ const About = () => {
       
       <div className="about-content">
         <div className="mission-statement">
-          <h2>Our Mission</h2>
-          <p>At Creationbase, we are driven by a singular purpose: helping humanity through technology. 
-             QuantumKeep represents our commitment to revolutionizing secure data management.</p>
+          <h2>Software that puts your needs first</h2>
+          <p>At Creationbase, we build software differently. Starting with you—the user—we create solutions that make a real difference in your daily life.</p>
         </div>
 
         <div className="focus-areas">
-          <h2>Our Focus Areas</h2>
           <div className="focus-cards-container">
             <div className="focus-cards">
               <div className="focus-card">
-                <h3>Environmental</h3>
-                <p>Developing sustainable solutions for a better tomorrow</p>
+                <h3>Built For You</h3>
+                <p>Every feature starts with understanding your needs. We create software that makes your life easier, more productive, and more enjoyable.</p>
               </div>
               <div className="focus-card">
-                <h3>Public Safety</h3>
-                <p>Creating technology that protects and serves communities</p>
-              </div>
-              <div className="focus-card">
-                <h3>Information Security</h3>
-                <p>Safeguarding digital assets and protecting privacy</p>
+                <h3>Shaped By You</h3>
+                <p>Your feedback shapes our direction. We build tools we want to use ourselves, enhancing how you work, create, and connect.</p>
               </div>
             </div>
           </div>
