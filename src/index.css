@@ -16,13 +16,13 @@ code {
   box-sizing: border-box;
 }
 
-/* Dark mode scrollbar styling */
+/* Webkit (Chrome, Safari, newer versions of Opera) */
 ::-webkit-scrollbar {
-  width: 12px; /* Width of the scrollbar */
+  
 }
 
 ::-webkit-scrollbar-track {
- background: rgb(10, 10, 10);
+  background: rgb(10, 10, 10);
 }
 
 ::-webkit-scrollbar-thumb {
@@ -31,5 +31,11 @@ code {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(10, 10, 10);
+  background: rgb(45, 45, 45);
+}
+
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: rgb(35, 35, 35) rgb(20, 20, 20);
 }
