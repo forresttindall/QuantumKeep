@@ -63,7 +63,10 @@ The open-source community for various tools and libraries used in this project
 ## Contact
 Project Link: https://github.com/forresttindall/quantumkeep
 
+
 #### Created By: Forrest Tindall, Creationbase
 [Creationbase](https://www.creationbase.io)
+
+[Forrest Tindall](https://forresttindall.dev/links)
 
 Made with ⚛️ and quantum randomness 🎲
