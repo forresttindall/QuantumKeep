@@ -28,7 +28,7 @@
 
 React.js - 
 CryptoJS for AES-256 encryption - 
-Quantum random number generation via ANU Quantum Random Numbers API - 
+Quantum random number generation - 
 Framer Motion for animations - 
 React Router for navigation - 
 
@@ -55,10 +55,6 @@ Open a Pull Request
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
-## Acknowledgments
-
-Australian National University for providing the Quantum Random Numbers API
-The open-source community for various tools and libraries used in this project
 
 ## Contact
 Project Link: https://github.com/forresttindall/quantumkeep
